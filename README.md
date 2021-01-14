@@ -1,5 +1,5 @@
 # Simple.Result
-This library is meant to provide a light-weight wrapper class that lets you quickly determine whether an action succeeded for failed.
+This library is meant to provide a light-weight wrapper class that lets you quickly determine whether an action succeeded or failed.
 
 The following console app was written using this nuget package (Simple.Result) and Newtonsoft.Json.
 
@@ -80,6 +80,30 @@ namespace ResultExample
     }
 }
 
+```
+
+Console output for "pass"
+```
+{
+  "IsSuccess": true,
+  "Value": {
+    "FirstName": "Chris",
+    "LastName": "Volpi"
+  },
+  "Error": null
+}
+```
+
+Console output for "fail"
+```
+{
+  "IsSuccess": false,
+  "Value": null,
+  "Error": {
+    "Message": "Well this is awkward...",
+    "Code": 1002
+  }
+}
 ```
 
 When a result is passed, `IsSuccess` is true and `Value` is not null.
