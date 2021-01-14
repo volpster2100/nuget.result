@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Simple.Result</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Title>Result Wrapper</Title>
+    <Authors>Chris Volpi</Authors>
+    <PackageDescription>Provides two lite-weight classes that can be used to check the success or failure of operations returned from methods.</PackageDescription>
+    <PackageTags>Utility;Wrapper;Result;Success;Failure;Exception;Implicit;</PackageTags>
+    <RepositoryUrl>https://github.com/volpster2100/nuget.result</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
+    <RepositoryCommit>f811a33d458148efb57b6d601b22ebd960ca54e7</RepositoryCommit>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
