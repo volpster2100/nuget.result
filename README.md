@@ -1,5 +1,5 @@
-# nuget.result
-This library is meant to provide a light-weight wrapper class that lets you quikcly determine whether an action succeeded for failed.
+# Simple.Result
+This library is meant to provide a light-weight wrapper class that lets you quickly determine whether an action succeeded for failed.
 
 The following console app was written using this nuget package (Simple.Result) and Newtonsoft.Json.
 
@@ -92,3 +92,5 @@ The VoidResult class does not have an implicit operator for success responses; y
 Because this class uses generics, the success and failure types can be whatever you want them to be.
 
 Let me know if you think anything could be improved here and do not be shy with PRs.
+
+[Nuget Package](https://www.nuget.org/packages/Simple.Result/)
